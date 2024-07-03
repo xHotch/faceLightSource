@@ -1,0 +1,15 @@
+{
+    "TODO": "Create sample config.json file",
+    "MODEL_OUTPUT_DIR": "models/",
+    "DISABLE_WANDB": true,
+    "WANDB_RUN_DIR": "wandb/",
+    "WANDB_PROJECT_PATH" : "hotch/light-estimation/",
+    "TEST_LIGHTPROBE_PATH": "data/test",
+    "TRAIN_LIGHTPROBE_PATH": "data/train",
+    "TEST_LIGHTPROBE_PATH_UNROTATED": "data/lightprobes/Test",
+    "TRAIN_LIGHTPROBE_PATH_UNROTATED": "data/lightprobes/Train",
+    "GPU_ID": 0,
+    "IMAGE_LOG_FREQUENCY" : 50,
+    "WATCH_MODEL": true,
+    "PERFORMANCE_METRICS": ["MAE_solidangle", "MSE_solidangle", "RMSE_solidangle", "LOG_MAE_solidangle", "LOG_MSE_solidangle", "LOG_RMSE_solidangle", "AVG_Luminance_GT"]
+}
