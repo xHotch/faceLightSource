@@ -1,6 +1,6 @@
 # FaceLightSource: Deep Learning-based Light Source Estimation from Face Images
 
-### [Thesis](https://todo.thesis.link/)
+### [Thesis link soon]
 <img src='images/overview-1.png' width=100%>
 <img src='images/face2envmap-1.png' width=100%>
 
