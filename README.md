@@ -4,8 +4,7 @@
 <img src='images/overview-1.png' width=100%>
 <img src='images/face2envmap-1.png' width=100%>
 
->**Abstract:** This thesis proposes a novel method to estimate realistic-looking environment images from an input face image. Having correct light information is crucial for a variety of virtual and mixed reality applications, but training deep neural networks to calculate this information requires large datasets, which are not easily obtainable for pairs of face images and corresponding environment maps. We address this problem by creating a synthetic dataset using digital human characters from the MetaHuman framework. These human characters are illuminated by environment maps obtained from different sources and rendered using Unreal Engine. Through parameter augmentation, we achieve a diverse dataset of over 150000 face images with high-quality light information. Using this dataset, we trained a CNN to estimate the brightness of a scene given a single face image. The network is able to identify the most dominant light directions for most indoor in outdoor scenes, but sometimes fails in generating output that topologically matches the layout of equirectangular environment images. For unseen real-life examples of outdoor scenes, it was able to correctly identify the position of the sun. To achieve state-of-the-art results for image generation, we finetuned a pretrained diffusion network on environment images. The text prompts for the diffusion network are generated from face images using existing image-to-text models. By adding the estimated brightness images from our CNN we can guide the model to follow the layout of the original scenes, while generating realistic-looking results. 
-
+>**Abstract:** Abstract will be added
 [Philipp Hochhauser](https://www.linkedin.com/in/phochhauser/)
 
 
@@ -68,6 +67,7 @@ python test.py
 ## 4. To-Do
 - [x] Training code
 - [x] Inference code
+- [ ] Thesis abstract
 - [ ] Diffusion fine-tuning code
 - [ ] Inference code for diffusion model
 - [ ] Trained models
